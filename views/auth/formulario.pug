@@ -1,0 +1,27 @@
+extends ../layout/index
+
+block contenido
+    section.flex.rounded-xl.ring-1.ring-slate-400.w-full.justify-center.items-center.p-4
+        div(class="w-1/2 ring-1 ring-blue-200")
+            div.bg-blue-200.p-4
+                div.m-auto.flex
+                    img(src="/img/icons/women.png", class="m-auto w-20")
+                div.p-4.px-8
+                    p.font-normal.text-lg.text-slate-800 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, esse suscipit. Aspernatur eligendi exercitationem pariatur ducimus placeat asperiores laborum, necessitatibus, culpa voluptas praesentium deserunt, consectetur amet molestiae libero laudantium dolorem!
+        div(class="w-1/2 ring-1 ring-slate-200")
+            form(action="POST" class="space-y-4")
+                div.flex.items-center.justify-evenly
+                    label(for="email" class="block text-sm font-medium leading-6 text-gray-900 text-left") Email
+                    input(id="email" name="email" type="email" autocomplete="email" class="focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-1/2 text-sm leading-10 text-slate-900 placeholder-slate-400 rounded-md px-4 ring-1 ring-slate-200 shadow-sm" placeholder="email")
+
+                div.flex.items-center.justify-evenly
+                    label(for="email" class="block text-sm font-medium leading-6 text-gray-900 text-left") Genero
+                    input(id="email" name="email" type="email" autocomplete="email" class="focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-1/2 text-sm leading-10 text-slate-900 placeholder-slate-400 rounded-md px-4 ring-1 ring-slate-200 shadow-sm" placeholder="email")
+
+                div.flex.items-center.justify-evenly
+                    label(for="email" class="block text-sm font-medium leading-6 text-gray-900 text-left") Cumpleanos
+                    input(id="email" name="email" type="email" autocomplete="email" class="focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-1/2 text-sm leading-10 text-slate-900 placeholder-slate-400 rounded-md px-4 ring-1 ring-slate-200 shadow-sm" placeholder="email")
+
+                div.flex.items-center.justify-evenly
+                    label(for="email" class="block text-sm font-medium leading-6 text-gray-900 text-left") Telefono
+                    input(id="email" name="email" type="email" autocomplete="email" class="focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-1/2 text-sm leading-10 text-slate-900 placeholder-slate-400 rounded-md px-4 ring-1 ring-slate-200 shadow-sm" placeholder="email")
